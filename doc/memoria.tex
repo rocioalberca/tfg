@@ -1,0 +1,45 @@
+\documentclass[a4paper,12pt,oneside]{book}
+
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    left=25mm,
+    right=25mm,
+    top=25mm,
+    bottom=25mm
+}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[main=spanish, provide=*]{babel}
+\usepackage[backend=bibtex8, style=numeric, sorting=none]{biblatex}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{verbatim}
+\addbibresource{bibliografia.bib}
+
+\begin{document}
+
+\frontmatter
+
+\include{portada}
+
+\tableofcontents
+
+\mainmatter
+
+\setlength{\parskip}{3mm}
+\include{introduccion}
+
+\begin{comment}
+
+\include{planificacion}
+
+\end{comment}
+
+\backmatter
+\printbibliography
+
+\end{document}

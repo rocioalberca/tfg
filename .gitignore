@@ -1,0 +1,11 @@
+#latex auxiliary files 
+doc/*.aux
+doc/*.bbl
+doc/*.blg
+doc/*.log
+doc/*.toc
+doc/*.out
+doc/*.tocbcf
+doc/*.run.xml
+doc/*-blx.bib
+doc/*.bcf
